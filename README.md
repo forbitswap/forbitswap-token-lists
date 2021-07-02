@@ -1,6 +1,6 @@
 # @forbitswap/token-lists (beta)
 
-[![Tests](https://github.com/Forbitswap/token-lists/workflows/Tests/badge.svg)](https://github.com/forbitswap/forbitswap-token-lists/actions?query=workflow%3ATests+)
+[![Tests](https://github.com/Forbitswap/token-lists/workflows/Tests/badge.svg)](hhttps://github.com/forbitswap/forbitswap-token-lists/actions?query=workflow%3ATests++)
 [![npm](https://img.shields.io/npm/v/@forbitswap/token-lists)](https://unpkg.com/@forbitswap/token-lists@latest/)
 
 This package includes a JSON schema for token lists, and TypeScript utilities for working with token lists.
