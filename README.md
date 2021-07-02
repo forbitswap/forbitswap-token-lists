@@ -1,21 +1,21 @@
 # @forbitswap/token-lists (beta)
 
-[![Tests](https://github.com/Forbitswap/token-lists/workflows/Tests/badge.svg)](https://github.com/Forbitswap/token-lists/actions?query=workflow%3ATests)
+[![Tests](https://github.com/Forbitswap/token-lists/workflows/Tests/badge.svg)](https://github.com/forbitswap/forbitswap-token-lists/actions?query=workflow%3ATests+)
 [![npm](https://img.shields.io/npm/v/@forbitswap/token-lists)](https://unpkg.com/@forbitswap/token-lists@latest/)
 
 This package includes a JSON schema for token lists, and TypeScript utilities for working with token lists.
 
-The JSON schema represents the technical specification for a token list which can be used in a dApp interface, such as the Forbitswap Interface.
+The JSON schema represents the technical specification for a token list which can be used in a dApp interface, such as the forbitswap Interface.
 
 ## What are token lists?
 
-Forbitswap Token Lists is a specification for lists of token metadata (e.g. address, decimals, ...) that can be used by any dApp interfaces that needs one or more lists of tokens.
+forbitswap Token Lists is a specification for lists of token metadata (e.g. address, decimals, ...) that can be used by any dApp interfaces that needs one or more lists of tokens.
 
 Anyone can create and maintain a token list, as long as they follow the specification.
 
 Specifically an instance of a token list is a [JSON](https://www.json.org/json-en.html) blob that contains a list of 
 [ERC20](https://github.com/ethereum/eips/issues/20) token metadata for use in dApp user interfaces.
-Token list JSON must validate against the [JSON schema](https://json-schema.org/) in order to be used in the Forbitswap Interface.
+Token list JSON must validate against the [JSON schema](https://json-schema.org/) in order to be used in the forbitswap Interface.
 Tokens on token lists, and token lists themselves, are tagged so that users can easily find tokens.
 
 ## JSON Schema $id
